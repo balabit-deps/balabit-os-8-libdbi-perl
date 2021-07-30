@@ -1,3 +1,12 @@
+libdbi-perl (1.643-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: wrong folder used when opening files
+    - debian/patches/CVE-2014-10402.patch: correctly parse DSN in
+      lib/DBD/File.pm.
+    - CVE-2014-10402
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 30 Jul 2021 07:22:12 -0400
+
 libdbi-perl (1.643-1) unstable; urgency=medium
 
   * Mention dh-sequence-perl-dbi in README.Debian.

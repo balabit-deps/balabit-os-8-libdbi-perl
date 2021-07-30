@@ -2,3 +2,4 @@ t__06attrs.t__localefix.patch
 t__40profile.t__NTP.patch
 t__80proxy.t___syslogd.patch
 spelling.patch
+CVE-2014-10402.patch
